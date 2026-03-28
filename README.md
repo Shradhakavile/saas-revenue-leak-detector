@@ -1,5 +1,16 @@
 # saas-revenue-leak-detector
 
+## Executive Summary
+A SaaS company billing 500 customers generated ₹1.90 crore in revenue over 18 months — but ₹40.1 lakh (~21%) never reached the bank.
+This project builds an automated detection system to pinpoint where revenue is leaking, which customers are responsible, and what to fix first.
+
+Three key leak sources identified:
+- 604 unpaid invoices pending for 30–90+ days (largest contributor)
+- 271 invoices with silent underbilling due to system errors
+- 280 cases of unauthorized discount usage
+
+Total recoverable revenue: ₹40.1 lakh across 346 customers, with enterprise billing errors showing the highest loss per case.
+
 ## Problem Statement
 SaaS companies lose significant revenue every month through billing errors, unpaid invoices, and unauthorized discounts — most of which go undetected because they're spread across thousands of transactions. This project builds an end-to-end system to detect, quantify, and prioritize revenue leaks.
 
